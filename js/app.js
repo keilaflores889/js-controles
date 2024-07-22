@@ -21,7 +21,8 @@ btnMostrar.addEventListener("click", function(){
     const nombres = document.getElementById("txtNombre").value;
     const apellido = document.getElementById("txtApellido").value;
     const cedula = document.getElementById("txtCedula").value;
-    console.log('nombre' + nombres + ', apellidos' + apellido +  ', cedula' + cedula);
+    const direccion = document.getElementById("txtDireccion").value;
+    console.log('nombre' + nombres + ', apellidos' + apellido +  ', cedula' + cedula + ', direccion' + direccion);
 })
 
 
